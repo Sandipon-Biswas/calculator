@@ -1,0 +1,51 @@
+.container {
+  text-align: center;
+}
+table {
+  margin: auto;
+  width: 20rem;
+  background: #58b19f;
+  padding: 10px !important;
+}
+input#screen {
+  width: 340px;
+  height: 6rem;
+  background: #9aecdb;
+  border: navajowhite;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+button {
+  width: 73px;
+  height: 41px;
+  font-size: 25px;
+  font-weight: 600;
+  border: none;
+  margin: 5px;
+}
+button:hover {
+  transition: 0.5s;
+  box-shadow: rgba(6, 255, 48, 0.35) 0px -50px 36px -28px inset;
+}
+.wave {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -11;
+  height: 400px;
+}
+body {
+  background: #3bceb0;
+}
+button {
+  border-radius: 11px;
+}
+.content {
+  padding: 13px;
+  background: #00ffb3;
+  /* display: block; */
+  width: 23rem;
+  margin-top: 50px;
+  border-radius: 9px;
+}
